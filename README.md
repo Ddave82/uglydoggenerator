@@ -6,7 +6,8 @@
 
 ### Web Interface
 
-![Web Interface](docs/Screenshot1.png)
+![Web Interface](./docs/Screenshot1.png)
+
 
 
 ## 💡 The Core Idea: What & Why
@@ -19,7 +20,7 @@ It was built as a fun, hands-on coding exercise to answer a practical question: 
 
 See it in action and generate your own ugly dog right here:
 
-**[https://ddave82.github.io/uglydoggenerator/](https://ddave82.github.io/uglydoggenerator/)**
+[Ugly Dog Generator](<a href="https://ddave82.github.io/uglydoggenerator/" target="_blank">https://ddave82.github.io/uglydoggenerator/</a>)
 
 ---
 
@@ -33,7 +34,8 @@ See it in action and generate your own ugly dog right here:
 
 ### n8n Workflow
 
-![Web Interface](docs/screenshot1.png)
+![Web Interface](./docs/Screenshot2.png)
+
 
 
 ---
