@@ -6,7 +6,7 @@
 
 ### Web Interface
 
-![Web Interface](./docs/Screenshot1.png)
+![Web Interface](docs/Screenshot1.png)
 
 
 
