@@ -115,9 +115,8 @@ function App() {
   const [imageData, setImageData] = useState<string>('');
   const [showConfetti, setShowConfetti] = useState(false);
 
-  // Sound effects
-  const [playBuzzer] = useSound('/sounds/buzzer.mp3');
-  const [playApplause] = useSound('/sounds/applause.mp3');
+  // Sound effect
+  const [playApplause] = useSound('/sounds/applaus.mp3');
 
   const generateDog = async () => {
     setLoading(true);
@@ -132,9 +131,8 @@ function App() {
       const data = await response.json();
       setImageData(data.imageBase64);
       
-      // Play sound effects and show confetti
-      playBuzzer();
-      setTimeout(() => playApplause(), 500);
+      // Play sound effect and show confetti
+      playApplause();
       setShowConfetti(true);
       
       // Hide confetti after 5 seconds
