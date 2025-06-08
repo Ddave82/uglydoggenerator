@@ -6,7 +6,7 @@
 
 ### Web Interface
 
-![Web Interface](src/Screenshot1.png)
+![Web Interface](docs/Screenshot1.png)
 
 ## 💡 The Core Idea: What & Why
 
@@ -32,7 +32,7 @@ See it in action and generate your own ugly dog right here:
 
 ### n8n Workflow
 
-![n8n Workflow](src/Screenshot2.png)
+![n8n Workflow](docs/Screenshot2.png)
 
 ---
 
