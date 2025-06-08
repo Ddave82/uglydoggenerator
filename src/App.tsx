@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import useSound from 'use-sound';
 import ReactConfetti from 'react-confetti';
 import { GlobalStyles } from './styles/GlobalStyles';
 
@@ -115,8 +114,8 @@ function App() {
   const [imageData, setImageData] = useState<string>('');
   const [showConfetti, setShowConfetti] = useState(false);
 
-  // Sound effect
-  const [playApplause] = useSound('/sounds/applaus.mp3');
+  // Sound effect reference
+  const audioRef = React.useRef<HTMLAudioElement>(null);
 
   const generateDog = async () => {
     setLoading(true);
@@ -132,7 +131,11 @@ function App() {
       setImageData(data.imageBase64);
       
       // Play sound effect and show confetti
-      playApplause();
+      // Play sound effect
+      if (audioRef.current) {
+        audioRef.current.currentTime = 0;
+        audioRef.current.play();
+      }
       setShowConfetti(true);
       
       // Hide confetti after 5 seconds
@@ -157,6 +160,7 @@ function App() {
   return (
     <>
       <GlobalStyles />
+      <audio ref={audioRef} src="/uglydoggenerator/sounds/aplaus.mp3" preload="auto" />
       {showConfetti && <ReactConfetti />}
       
       <Container>
