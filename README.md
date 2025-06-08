@@ -30,9 +30,6 @@ See it in action and generate your own ugly dog right here:
 * **Download & Share:** Save your favorite creation or send it to a friend via email.
 * **Fully Responsive:** Works on any device, from desktop to mobile.
 
-### n8n Workflow
-
-![Web Interface](docs/Screenshot2.png)
 
 
 
