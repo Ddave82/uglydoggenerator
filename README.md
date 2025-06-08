@@ -11,6 +11,7 @@
 
 
 
+
 ## 💡 The Core Idea: What & Why
 
 This project is a simple web app that generates wonderfully ugly, AI-created dogs in the style of a vintage sideshow with a single click.
