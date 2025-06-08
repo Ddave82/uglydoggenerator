@@ -20,7 +20,7 @@ It was built as a fun, hands-on coding exercise to answer a practical question: 
 
 See it in action and generate your own ugly dog right here:
 
-[Ugly Dog Generator](<a href="https://ddave82.github.io/uglydoggenerator/" target="_blank">https://ddave82.github.io/uglydoggenerator/</a>)
+<a href="https://ddave82.github.io/uglydoggenerator/" target="_blank">Ugly Dog Generator</a>
 
 ---
 
