@@ -1,82 +1,92 @@
+&lt;div align="center">
+
 🎪 Ugly Dog Generator 🐶
-Welcome to the circus of curiosities!
+&lt;/div>
 
-Generate your own AI-generated, wonderfully ugly dog – in the style of a vintage sideshow.
+Willkommen im Zirkus der Kuriositäten! &lt;br>
+Generiere deinen eigenen KI-erstellten, wunderbar hässlichen Hund – im Stil einer alten Sideshow. &lt;br>
+Ein React + TypeScript Projekt, das sich selbst nicht zu ernst nimmt.
 
-A React + TypeScript project that doesn't take itself too seriously.
+🤹 Über dieses Projekt
+Dieses Projekt entstand nur zum Spaß als Programmierübung:
+Wie verbindet man eine verspielte Startseite mit einer echten Backend-Funktion über n8n und Webhooks?
 
-🤹 About this Project
-This project was created just for fun, as a coding exercise:
-How do you connect a playful homepage with a real backend function using n8n and webhooks?
-
-This Ugly Dog Generator is the result – a silly experiment that grew into a full show!
+Der Ugly Dog Generator ist das Ergebnis – ein albernes Experiment, das zu einer ganzen Show herangewachsen ist!
 
 ✨ Features
-One click – one ugly dog! Get a uniquely weird, adorable, or hideous AI-generated dog every time you hit the big buzzer.
-1920s Circus Sideshow Design Confetti, buzzers, applause, and retro fonts – all the fun of a weird old fairground!
-Sound & Animations Celebrate every ugly dog with effects and cheers.
-Download & Share Save your dog or send it to a friend via email.
-Fully Responsive Works on every device – even at the freak show.
+Ein Klick – ein hässlicher Hund!
+Erhalte jedes Mal einen einzigartig seltsamen, entzückenden oder scheußlichen KI-Hund, wenn du den großen Buzzer drückst.
+1920er Zirkus-Sideshow-Design
+Konfetti, Buzzer, Applaus und Retro-Schriftarten – der ganze Spaß eines schrägen alten Jahrmarkts!
+Sound & Animationen
+Feiere jeden hässlichen Hund mit Effekten und Jubel.
+Download & Teilen
+Speichere deinen Hund oder schicke ihn per E-Mail an einen Freund.
+Vollständig responsiv
+Funktioniert auf jedem Gerät – sogar in der Freakshow.
 🌍 Live Demo
-Check it out here:
+Schau es dir hier an:
 https://ddave82.github.io/uglydoggenerator/
 
 🚀 Getting Started
-Clone this repository:
+Repository klonen:
 
 Bash
 
 git clone https://github.com/Ddave82/uglydoggenerator.git
 cd uglydoggenerator
-Install dependencies:
+Abhängigkeiten installieren:
 
 Bash
 
 npm install
-Start the development server:
+Entwicklungsserver starten:
 
 Bash
 
 npm start
-Open http://localhost:3000 in your browser and let the dog show begin!
+Öffne http://localhost:3000 in deinem Browser und lass die Hundeshow beginnen!
 
-🛠️ Technology Stack
+🛠️ Technologie-Stack
 React + TypeScript
-Styled Components for styling
-React Confetti for celebration effects
-use-sound for audio effects
-📁 Project Structure
+Styled Components für das Styling
+React Confetti für die Feiereffekte
+use-sound für die Audioeffekte
+📁 Projektstruktur
 Bash
 
 /src
   /styles
-    GlobalStyles.ts      # Global circus theme
-  App.tsx                # Main application
+    GlobalStyles.ts      # Globales Zirkus-Theme
+  App.tsx                # Hauptanwendung
 /public
   /sounds
-    applause.mp3         # Applause sound
-    buzzer.mp3           # Buzzer sound
-
+    applause.mp3         # Applaus-Sound
+    buzzer.mp3           # Buzzer-Sound
 /docs
-  screenshot1.png        # Screenshot of the web app
-  screenshot2.png        # Screenshot of the n8n workflow
-  screenshot_prompt.png  # Screenshot of the image generation prompt
-🧪 Available Scripts
-npm start – Start the local circus
-npm run build – Build for production
-npm test – Test your dog (optional)
-npm run eject – Eject from Create React App
-🎨 Prompt Used for Image Generation
-Current AI prompt (English translation):
+  screenshot1.png        # Screenshot der Web-App
+  screenshot2.png        # Screenshot des n8n-Workflows
+  screenshot_prompt.png  # Screenshot des Bildgenerierungs-Prompts
+🧪 Verfügbare Skripte
+npm start – Starte den lokalen Zirkus
+npm run build – Erstelle die Produktionsversion
+npm test – Teste deinen Hund (optional)
+npm run eject – Aus Create React App "auswerfen"
+🎨 Prompt für die Bildgenerierung
+Aktueller AI-Prompt (englische Übersetzung):
 
 Create a realistic portrait of an extremely ugly and comically looking dog. The dog should have unusual, asymmetric facial features, such as a crooked jaw, differently sized, bulging eyes, scruffy, unkempt fur, a crooked nose, and protruding teeth. The overall image should look bizarre, but humorous. The background should be neutral and blurry, so that the focus is entirely on the dog. Realistic style, high level of detail.
 
-👾 Contributions
-Pull requests, weird dog memes, feature requests – all welcome!
+👾 Beiträge
+Pull Requests, seltsame Hundememes, Feature-Wünsche – alles ist willkommen!
 
-Let’s make the internet even weirder together.
+Lasst uns das Internet gemeinsam noch seltsamer machen.
 
-📝 License
-MIT – Go wild, just don’t scare any real dogs.
+📝 Lizenz
+MIT – Tob dich aus, aber erschreck keine echten Hunde.
 
-Have fun at the circus! And remember: Beauty is in the eye of the dog owner. 🥳
+&lt;div align="center">
+
+Viel Spaß im Zirkus! Und denk daran: Schönheit liegt im Auge des Hundebesitzers. 🥳
+
+&lt;/div>
