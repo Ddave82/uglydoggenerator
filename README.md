@@ -4,10 +4,6 @@
 
 </div>
 
-### Web Interface
-
-![Web Interface](docs/Screenshot1.png)
-
 
 
 
