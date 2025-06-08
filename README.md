@@ -4,79 +4,68 @@
 
 </div>
 
-> Willkommen im Zirkus der Kuriositäten! <br>
-> Generiere deinen eigenen KI-erstellten, wunderbar hässlichen Hund – im Stil einer alten Sideshow. <br>
-> Ein React + TypeScript Projekt, das sich selbst nicht zu ernst nimmt.
+## 💡 The Core Idea: What & Why
 
----
+This project is a simple web app that generates wonderfully ugly, AI-created dogs in the style of a vintage sideshow with a single click.
 
-## 🤹 Über dieses Projekt
+It was built as a fun, hands-on coding exercise to answer a practical question: **How do you connect a playful React frontend to a real backend workflow (built with n8n) via webhooks?** This generator is the quirky result of that experiment.
 
-Dieses Projekt entstand nur zum Spaß als Programmierübung:
-Wie verbindet man eine verspielte Startseite mit einer echten Backend-Funktion über n8n und Webhooks?
+## 🚀 Live Demo
 
-Der Ugly Dog Generator ist das Ergebnis – ein albernes Experiment, das zu einer ganzen Show herangewachsen ist!
+See it in action and generate your own ugly dog right here:
 
-## ✨ Features
-
-* **Ein Klick – ein hässlicher Hund!**
-    * Erhalte jedes Mal einen einzigartig seltsamen, entzückenden oder scheußlichen KI-Hund, wenn du den großen Buzzer drückst.
-* **1920er Zirkus-Sideshow-Design**
-    * Konfetti, Buzzer, Applaus und Retro-Schriftarten – der ganze Spaß eines schrägen alten Jahrmarkts!
-* **Sound & Animationen**
-    * Feiere jeden hässlichen Hund mit Effekten und Jubel.
-* **Download & Teilen**
-    * Speichere deinen Hund oder schicke ihn per E-Mail an einen Freund.
-* **Vollständig responsiv**
-    * Funktioniert auf jedem Gerät – sogar in der Freakshow.
-
-## 🌍 Live Demo
-
-Schau es dir hier an:
 **[https://ddave82.github.io/uglydoggenerator/](https://ddave82.github.io/uglydoggenerator/)**
 
 ---
 
-## 🚀 Getting Started
+## ✨ Features
 
-1.  **Repository klonen:**
+* **One Click, One Ugly Dog:** Get a uniquely weird, adorable, or hideous AI-generated dog every time you hit the big buzzer.
+* **1920s Sideshow Design:** Confetti, buzzers, applause, and retro fonts create the fun atmosphere of a weird old fairground.
+* **Sound & Animations:** Celebrate every generated dog with sound effects and cheers.
+* **Download & Share:** Save your favorite creation or send it to a friend via email.
+* **Fully Responsive:** Works on any device, from desktop to mobile.
+
+---
+
+## 🛠️ For Developers: Getting Started
+
+1.  **Clone this repository:**
     ```sh
     git clone [https://github.com/Ddave82/uglydoggenerator.git](https://github.com/Ddave82/uglydoggenerator.git)
     cd uglydoggenerator
     ```
 
-2.  **Abhängigkeiten installieren:**
+2.  **Install dependencies:**
     ```sh
     npm install
     ```
 
-3.  **Entwicklungsserver starten:**
+3.  **Start the development server:**
     ```sh
     npm start
     ```
-    Öffne `http://localhost:3000` in deinem Browser und lass die Hundeshow beginnen!
+    The app will be running on `http://localhost:3000`.
 
----
-
-## 🛠️ Technologie-Stack
+## ⚙️ Technology Stack
 
 * **React + TypeScript**
-* **Styled Components** für das Styling
-* **React Confetti** für die Feiereffekte
-* **use-sound** für die Audioeffekte
+* **Styled Components** for styling
+* **React Confetti** for celebration effects
+* **use-sound** for audio effects
 
-## 📁 Projektstruktur
+## 📁 Project Structure
 
 ```bash
 /src
   /styles
-    GlobalStyles.ts      # Globales Zirkus-Theme
-  App.tsx                # Hauptanwendung
+    GlobalStyles.ts      # Global circus theme
+  App.tsx                # Main application
 /public
   /sounds
-    applause.mp3         # Applaus-Sound
-    buzzer.mp3           # Buzzer-Sound
+    applause.mp3         # Applause sound
+    buzzer.mp3           # Buzzer sound
 /docs
-  screenshot1.png        # Screenshot der Web-App
-  screenshot2.png        # Screenshot des n8n-Workflows
-  screenshot_prompt.png  # Screenshot des Bildgenerierungs-Prompts
+  screenshot1.png        # Screenshot of the web app
+  screenshot2.png        # Screenshot of the n8n workflow
+  screenshot_prompt.png  # Screenshot of the image generation prompt
