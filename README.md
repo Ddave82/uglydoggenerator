@@ -6,7 +6,7 @@
 
 ### Web Interface
 
-![Web Interface](./docs/Screenshot1.png)
+![Screenshot 1](docs/Screenshot1.png)
 
 
 
@@ -34,7 +34,7 @@ See it in action and generate your own ugly dog right here:
 
 ### n8n Workflow
 
-![Web Interface](./docs/Screenshot2.png)
+![Screenshot 1](docs/Screenshot2.png)
 
 
 
