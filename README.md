@@ -8,6 +8,7 @@
 
 ![Web Interface](docs/Screenshot1.png)
 
+
 ## 💡 The Core Idea: What & Why
 
 This project is a simple web app that generates wonderfully ugly, AI-created dogs in the style of a vintage sideshow with a single click.
@@ -32,7 +33,8 @@ See it in action and generate your own ugly dog right here:
 
 ### n8n Workflow
 
-![n8n Workflow](docs/Screenshot2.png)
+![Web Interface](docs/screenshot1.png)
+
 
 ---
 
